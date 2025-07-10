@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=SUIT:wght@400;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'SUIT', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #eaf6ff, #ffffff);
+  color: #222;
+  text-align: center; /* 전체 중앙 정렬 */
+}
+
+header {
+  background: #005bbb;
+  color: #000000;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px 10px;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #050505;
+  color: #005bbb;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left; /* 내부 내용은 좌측 정렬로 가독성 유지 */
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #005bbb;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #005bbb;
+  font-weight: 700;
+}
+
+.academy {
+  background: #ffffff;
+  border: 1px solid #cce4ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.academy:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#map {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #cce4ff;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 400px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #005bbb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0077ee;
+}
+
+#favOutput {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #005bbb;
+  font-weight: 600;
+}
+
+/* 🌙 다크모드 전체 테마 */
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark header {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+body.dark nav a {
+  color: #eee;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body.dark nav a:hover {
+  background: #333;
+  color: #90caf9;
+}
+
+body.dark .academy {
+  background: #1e1e1e;
+  border: 1px solid #444;
+  color: #eee;
+}
+
+body.dark input[type="text"] {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 2px solid #555;
+}
+
+body.dark button {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark button:hover {
+  background-color: #555;
+}
+
+body.dark #favOutput {
+  color: #90caf9;
+}
