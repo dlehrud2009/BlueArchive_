@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BlueArchivePage/static/css/main.b6eb7d10.css",
+    "main.js": "/BlueArchivePage/static/js/main.aa2c0911.js",
+    "index.html": "/BlueArchivePage/index.html",
+    "main.b6eb7d10.css.map": "/BlueArchivePage/static/css/main.b6eb7d10.css.map",
+    "main.aa2c0911.js.map": "/BlueArchivePage/static/js/main.aa2c0911.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6eb7d10.css",
+    "static/js/main.aa2c0911.js"
+  ]
+}
